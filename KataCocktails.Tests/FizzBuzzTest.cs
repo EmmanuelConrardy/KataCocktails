@@ -6,7 +6,7 @@ namespace KataCocktails.Tests
     public class FizzBuzzTest
     {
         [Fact]
-        public void Rename_me()
+        public void rename_me()
         {
 
         }
