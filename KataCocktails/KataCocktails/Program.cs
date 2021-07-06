@@ -6,7 +6,14 @@ namespace KataCocktails
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var fizzbuzz = new FizzBuzz();
+
+            for (int i = 1; i <= 100; i++)
+            {
+                Console.WriteLine(i + " " + fizzbuzz.Get());
+            }
+
+            Console.ReadLine();
         }
     }
 }
