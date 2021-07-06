@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataCocktails.Tests", "KataCocktails.Tests\KataCocktails.Tests.csproj", "{C9613531-2F31-4F85-9E83-E8FD56CDD19E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataCocktails", "KataCocktails\KataCocktails\KataCocktails.csproj", "{38493756-BDBB-427C-B63A-3E3DD2840756}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataCocktails", "KataCocktails\KataCocktails.csproj", "{38493756-BDBB-427C-B63A-3E3DD2840756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

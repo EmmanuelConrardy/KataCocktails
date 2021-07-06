@@ -40,3 +40,6 @@ Librairie/Technical/DomiaGroup.BO.Technical.Commun.dll
 Librairie/Technical/DomiaGroup.BO.Technical.Commun.Resources.dll
 *.ncrunchsolution.user
 *.user
+_NCrunch_KataCocktails/KataCocktails.crunchsolution.cache
+_NCrunch_KataCocktails/KataCocktails.executiontimes.cache
+KataCocktails.v3.ncrunchsolution

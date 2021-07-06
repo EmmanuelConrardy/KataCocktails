@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using Xunit;
 
 namespace KataCocktails.Tests
@@ -41,6 +42,30 @@ namespace KataCocktails.Tests
             Assert.Equal("28", fizzBuzz.Get());
             Assert.Equal("29", fizzBuzz.Get());
             Assert.Equal("FizzBuzz", fizzBuzz.Get());
+        }
+
+        [Fact]
+        public void Test_golden()
+        {
+            var fizzbuzz = new FizzBuzz();
+
+            var stringbuilder = new StringBuilder();
+
+            for (int i = 1; i <= 100; i++)
+            {
+                stringbuilder.AppendLine(i + " " + fizzbuzz.Get());
+            }
+
+            var fizzbuzzGolden = new FizzBuzzGolden();
+
+            var stringbuilder2 = new StringBuilder();
+
+            for (int i = 1; i <= 100; i++)
+            {
+                stringbuilder2.AppendLine(i + " " + fizzbuzzGolden.Get());
+            }
+
+            Assert.Equal(stringbuilder.ToString(), stringbuilder2.ToString());
         }
     }
 }
